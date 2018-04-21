@@ -1,0 +1,26 @@
+{
+  "name": "uldu",
+  "version": "1.0.0",
+  "description": "Ultra lightweight utility to create DOM nopdes.",
+  "repository": "https://github.com/chriskr/uldu",
+  "main": "index.js",
+  "author": "chriskr",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development webpack -w --mode development --display-error-details",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "eslint": "./node_modules/.bin/eslint --fix src/"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
