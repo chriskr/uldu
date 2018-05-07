@@ -6,6 +6,17 @@
   "main": "index.js",
   "author": "chriskr",
   "license": "Apache-2.0",
+  "keywords": [
+    "dom",
+    "utility",
+    "create element",
+    "createElement",
+    "html",
+    "template",
+    "templating",
+    "minimal",
+    "lightweight"
+  ],
   "dependencies": {},
   "scripts": {
     "watch": "cross-env NODE_ENV=development webpack -w --mode development --display-error-details",
