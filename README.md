@@ -133,7 +133,8 @@ Calendar.Templates = class {
 
     table.push([
       'tbody',
-      ...weeksOfMonth.map(week => this.week(year, month, week, today, holidays))
+      ...weeksOfMonth.map(
+        week => this.week(year, month, week, today, holidays))
     ]);
 
     table.push(this.holidays(year, month, holidays));
@@ -150,7 +151,8 @@ Calendar.Templates = class {
     tr.push(...weekDays.map((day, index) => {
       const isToday =
           today.year === year && today.month === month && today.date === day;
-      const isHoliday = isSunday(index) || holidays.isHoliday(year, month, day);
+      const isHoliday = isSunday(index) ||
+                        holidays.isHoliday(year, month, day);
       const className = classes(isToday && 'today', isHoliday && 'holiday');
       return ['td', {'class': className}, day > 0 ? String(day) : ''];
     }));
