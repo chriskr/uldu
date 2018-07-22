@@ -30,7 +30,7 @@ just replacing an outdated view.
 
 <img src="http://chriskr.github.io/assets/performance-uldu-react.png"
      width="600"
-     height="371">
+     height="318">
 
 
 ### Basic Usage
