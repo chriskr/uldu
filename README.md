@@ -11,6 +11,30 @@ Ultra lightweight utility to create DOM nodes.
   http://www.apache.org/licenses/LICENSE-2.0.txt
 )
 
+### Performance Tests
+
+- [Test document React](https://chriskr.github.io/test_ui_libs/react/build/)
+- [Test document Uldu](https://chriskr.github.io/test_ui_libs/bragi/build/)
+
+Tested with Chrome dev tools:
+- reload document
+- start recording performance
+- create 10 calendars
+- update the year 10 times, e.g. switch 5 times to the next year and 5 times to
+  the previous year in thew first calendar
+- stop recording
+
+This aims to somehow reflect the lifetime of an application, create a view and
+update the whole view at least once. In the case of uldu there is no dom diffing,
+just replacing an outdated view.
+
+<img src="http://chriskr.github.io/assets/performance-uldu-react.png"
+     width="600"
+     height="371">
+
+
+### Basic Usage
+
 ```js
 import {
   TEXT_NODE_NAME,
@@ -72,7 +96,8 @@ render([TEXT_NODE_NAME, 'This is really ', ['b', 'awesome']], document.body);
 <body>This is really <b>awesome</b></body>
 ```
 
-## Calendar templates as an example how to use it
+### More advanced example
+
 [Live example](https://chriskr.github.io/calendar/build/)
 
 [Github repo](https://github.com/chriskr/calendar)
