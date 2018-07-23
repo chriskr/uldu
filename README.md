@@ -21,7 +21,7 @@ Tested with Chrome dev tools:
 - start recording performance
 - create 10 calendars
 - update the year 10 times, e.g. switch 5 times to the next year and 5 times to
-  the previous year in thew first calendar
+  the previous year in the first calendar
 - stop recording
 
 This aims to somehow reflect the lifetime of an application, create a view and
@@ -205,3 +205,4 @@ Calendar.Templates = class {
   }
 };
 ```
+
