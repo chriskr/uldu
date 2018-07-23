@@ -28,6 +28,8 @@ This aims to somehow reflect the lifetime of an application, create a view and
 update the whole view at least once. In the case of uldu there is no dom diffing,
 just replacing an outdated view.
 
+Average of 5 records (standard deviation ca. 5%) for both:
+
 <img src="http://chriskr.github.io/assets/performance-uldu-react.png"
      width="600"
      height="318">
