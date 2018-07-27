@@ -21,7 +21,6 @@ Ultra lightweight utility to create DOM nodes.
 
 
 Tested with Chrome dev tools:
-(clicking the lib title performs the actions automatically)
 
 - reload document
 - start recording performance
@@ -29,6 +28,8 @@ Tested with Chrome dev tools:
 - update the year 10 times, e.g. switch 5 times to the next year and 5 times to
   the previous year in the first calendar
 - stop recording
+
+(Clicking the lib title performs these actions automatically)
 
 This aims to somehow reflect the lifetime of an application, create a view and
 update the whole view at least once. In the case of uldu there is no dom diffing,
