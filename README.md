@@ -13,10 +13,16 @@ Ultra lightweight utility to create DOM nodes.
 
 ### Performance Tests
 
-- [Test document React](https://chriskr.github.io/test_ui_libs/react/build/)
-- [Test document Uldu](https://chriskr.github.io/test_ui_libs/bragi/build/)
+- [Test document uldu](https://chriskr.github.io/test_ui_libs/bragi/build/)
+- [Test document react](https://chriskr.github.io/test_ui_libs/react/build/)
+- [Test document inferno](https://chriskr.github.io/test_ui_libs/test-inferno/build/)
+- [Test document hyperHTML](https://chriskr.github.io/test_ui_libs/hyperHtml/build/)
+- [Test document lit-html](https://chriskr.github.io/test_ui_libs/lit-html/build/)
+
 
 Tested with Chrome dev tools:
+(clicking the lib title performs the actions automatically)
+
 - reload document
 - start recording performance
 - create 10 calendars
@@ -28,11 +34,17 @@ This aims to somehow reflect the lifetime of an application, create a view and
 update the whole view at least once. In the case of uldu there is no dom diffing,
 just replacing an outdated view.
 
-Average of 5 records (standard deviation ca. 5%) for both:
+Average of 10 records :
 
-<img src="http://chriskr.github.io/assets/performance-uldu-react.png"
+<img src="http://chriskr.github.io/assets/performance-tests.png"
      width="600"
-     height="318">
+     height="630">
+
+Bundle size of the test documents:
+
+<img src="http://chriskr.github.io/assets/bundle-sizes.png"
+     width="600"
+     height="244">
 
 
 ### Basic Usage
