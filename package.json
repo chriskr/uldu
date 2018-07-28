@@ -1,6 +1,6 @@
 {
   "name": "uldu",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Ultra lightweight utility to create DOM nodes.",
   "repository": "https://github.com/chriskr/uldu",
   "main": "index.js",
