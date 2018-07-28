@@ -138,11 +138,11 @@ Calendar.Templates = class {
     return (
       ['header',
         ['span', {'data-handler': 'previous-year'},
-          ['i', {class: 'material-icons'}, 'chevron_left'],
+          ['i', {'class': 'material-icons'}, 'chevron_left'],
         ],
         ['h1', todayStr],
         ['span', {'data-handler': 'next-year'},
-          ['i', {class: 'material-icons'}, 'chevron_right'],
+          ['i', {'class': 'material-icons'}, 'chevron_right'],
         ],
       ]
     );
