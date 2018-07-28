@@ -155,7 +155,7 @@ Calendar.Templates = class {
     return ['section', ...tables];
   }
 
-  static month(year, month, today, holidays, withWeekNubers = true) {
+  static month(year, month, today, holidays) {
     const weeksOfMonth = getWeeksOfMonth(year, month);
     const weekDays = rotate(WEEK_DAYS_SHORT, 1);
     const weekLabels = weekDays.map(wday => ['th', wday]);
@@ -180,7 +180,7 @@ Calendar.Templates = class {
         [] :
         ['tfoot',
           ['tr',
-            ['td', {'colspan': withWeekNubers ? '8' : '7'}, holidaysList]
+            ['td', {'colspan': '8'}, holidaysList]
           ]
         ]
       ]
