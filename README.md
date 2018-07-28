@@ -41,7 +41,7 @@ Average of 10 records :
      width="600"
      height="630">
 
-Bundle size of the test documents:
+JavaScript bundle size of the test documents:
 
 <img src="http://chriskr.github.io/assets/bundle-sizes.png"
      width="600"
